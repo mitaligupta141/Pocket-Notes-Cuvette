@@ -10,7 +10,7 @@ function Message({content}) {
 
       <div className={styles.data_info}>
         <p>{content.date}</p>
-        <RxDotFilled size={20} />
+        <RxDotFilled size={12} />
         <p>{content.time}</p>
       </div>
     </div>
